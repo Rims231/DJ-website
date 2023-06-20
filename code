@@ -1,0 +1,185 @@
+Html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>DJ Shows</title>
+</head>
+<body>
+    <header class="header">
+     <img class="logo" alt="kampuz logo"  src="gorilla-wearing-headphones-retro-vintage-line-art-vector-44063628.webp"/>   
+    <nav class="main-nav">
+<ul class="lin-tins">
+    <li><a class="join" href="#">Home</a> </li>
+    <li><a class="join"  href="#">Music</a> </li>
+    <li><a class="join"  href="#">Shows</a> </li>
+    <li><a class="join"  href="#">Contact</a> </li>
+    <li><a class="join"  href="#">About</a> </li> 
+
+</ul>
+    </nav>
+    </header>
+  <main>
+    <section class="ubanka">
+        <div class="headboy">
+         <div class="introduction">
+             <h1 class="shege">
+                  Dj KampFire </h1>
+                  <p class="mrs"> World Greatest Dj Ever</p> 
+                  <a href="#" class="btnup btn--full " >Booking</a>
+                  <a href="#" class="btndown btn--out ">Sponsors &darr;</a>
+                 <div class="fan">
+                    <div class="fan-img">
+                        <img src="img/FB_IMG_16732568090833617.jpg" alt="fanphoto1">
+                       <img src="img/FB_IMG_16737344833441762.jpg" alt="fanphoto1">
+                        <img src="img/FB_IMG_16860701185797961.jpg" alt="fanphoto1">
+                        <img src="img/FB_IMG_16860700833292795.jpg" alt="fanphoto1">
+                        <img src="img/FB_IMG_16860702325313475.jpg" alt="fanphoto1">
+                        <img src="img/FB_IMG_16860701989750057.jpg" alt="fanphoto1">
+                    </div>
+                    <p class="fan-text"><strong>300,000 Fans all over the world</strong></p>
+                 </div>
+                </div>
+                 <div class="photo">
+             <img src= FB_IMG_16824467610012851.jpg class="Akuya"
+             alt="wawau"
+             />
+         </div>
+        </div>
+        
+        <script src="script.js"></script> 
+        <script src="index.js"></script>
+        </section>
+  </main>
+</body>
+</html>
+
+#CSS
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: sans-serif ;
+    line-height: 1;
+    font-weight: 400;
+    color: #000;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#f1e3c2 ;
+    height: 6.6rem;
+    padding: 0 4.8rem;
+}
+
+.lin-tins{
+    list-style: none;
+    display: flex;
+    gap: 3.2rem;
+}
+
+.join{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+.logo{
+    height: 9.4rem;
+}
+.ubanka{
+    background-color: #f1e3c2;
+    padding: 4.8rem 0 9.6rem 0;
+}
+.headboy{
+   max-width: 130rem; 
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 9.6rem;
+}
+
+.shege{
+    font-size:  6.2rem; 
+    font-weight: 700;
+    line-height: 1.05;
+    color: #333;
+    letter-spacing: -0.5px;
+    margin: bottom 3.2em; 
+    
+}
+.mrs{
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
+}
+
+.btnup,
+.btndown{
+    display: inline block;
+    background-color: #e67e22;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1.6rem 3.2rem;
+    border-radius: 150px;
+
+}
+.btn--full,
+.btn--full{
+    background-color: #e67e22;
+    color: #fff;
+    margin-right: 1.6rem;
+
+}
+
+.btn--full:hover,
+.btn--full:active{
+background-color: #cf711f;
+}
+.btn--out :link,
+.btn--out {
+    background-color: #fff;
+    color: #555;
+}
+.btn--out :hover,
+.btn--out :active{
+    background-color: #fdf2e9;
+    box-shadow: inset 0,0,0,3px #fff;
+}
+.Akuya{
+    width: 100%;
+    
+}
+
+.fan{
+    display: flex;
+    margin-top: 4rem;
+    align-items: center;
+    gap: 1.6rem;
+}
+.fan-img{
+    display: flex;
+}
+.fan-img img{
+    height:4.8rem ;
+    width:4.8rem ;
+    border-radius:50% ;
+}
+.fan-text{
+    font-size: 1.8rems;
+    font-weight: 800;
+}
